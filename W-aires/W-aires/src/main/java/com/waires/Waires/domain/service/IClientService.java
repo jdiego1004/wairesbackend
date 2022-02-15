@@ -13,6 +13,6 @@ public interface IClientService {
 
     ClientDTO modifiedClient(ClientDTO clientDTO);
 
-    ClientDTO deleteClient(String numDocumento);
+    String deleteClient(String numDocumento);
 
 }
